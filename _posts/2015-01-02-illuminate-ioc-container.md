@@ -77,11 +77,11 @@ container. All (non-deferred) `ServiceProvider`'s `register` methods will be exe
 container. After that all `boot` methods will be called.
 
 The callables that get registered to the container using the `$app->bind(...)` and `$app->singleton(...)` methods
-should be able to use the advantage of method dependency injection. For example this is currently a typical way to bind a callable to the container inside the .
+should be able to use the advantage of method dependency injection. For example this is currently a typical way to bind a callable to the container inside the `boot` method.
 
 <script src="https://gist.github.com/hannesvdvreken/0dad01f5ce541d7514d8.js"></script>
 
-If the callables that get registered in the `register` methods of the `ServiceProvider` are called with injected dependencies, this could be rewritten to:
+If the callables that are registered in the `register` methods of the `ServiceProvider` are called with injected dependencies, this could be rewritten to:
 
 <script src="https://gist.github.com/hannesvdvreken/e248393cfaacb56dfff0.js"></script>
 
@@ -91,6 +91,8 @@ functionality to automatically inject dependencies that need extra bootstrapping
 
 For example in the [boot method of the DatabaseServiceProvider](https://github.com/laravel/framework/blob/e989e173252e38eb41def4d0d85241dd28ab38bd/src/Illuminate/Database/DatabaseServiceProvider.php#L16-L18)
 one could inject both the `Illuminate\Database\DatabaseManager` and the `Illuminate\Events\Dispatcher`.
+
+**Edit** apparently the `boot` method of ServiceProviders are [already being called](https://github.com/laravel/framework/blob/master/src/Illuminate/Foundation/Application.php#L560-L566) with method dependency injection. The ServiceProviders just didn't use this yet.
 
 ### Other use cases
 
