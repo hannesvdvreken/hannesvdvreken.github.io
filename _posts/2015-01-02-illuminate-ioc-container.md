@@ -5,7 +5,6 @@ date: 2015-01-02
 alt: Laravel IoC container
 project-date: January 2015
 client: Laravel
-category: Web Development
 description: On the Illuminate IoC container
 ---
 
