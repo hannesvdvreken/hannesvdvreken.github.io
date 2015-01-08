@@ -36,10 +36,17 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('div [data-dismiss="modal"]').on('click', function () {
+$('div[data-dismiss="modal"]').on('click', function () {
     window.history.pushState({}, '', '/#/');
 });
 
 $('a.portfolio-link').on('click', function () {
     window.history.pushState({}, '', '/#' + $(this).data('url'));
 });
+
+window.onload = function () {
+    var hash = window.location.hash.substr(1);
+    var url = '/' + hash.replace(/\/$/, '').replace(/^\//, '') + '/';
+
+    $('a[data-url="'+url+'"]').first().click();
+};
