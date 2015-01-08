@@ -48,5 +48,9 @@ window.onload = function () {
     var hash = window.location.hash.substr(1);
     var url = '/' + hash.replace(/\/$/, '').replace(/^\//, '') + '/';
 
-    $('a[data-url="'+url+'"]').first().click();
+    if ($('a[data-url="'+url+'"]').length) {
+        $('a[data-url="'+url+'"]').first().click();
+    } else {
+        window.history.pushState({}, '', '/#/');
+    }
 };
