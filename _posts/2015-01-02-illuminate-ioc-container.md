@@ -128,7 +128,7 @@ instantiate Whoops in a more lazy way.
 ## Available containers
 There are a number of Containers available in Composer packages. Here are a couple of them that come to my mind:
 
-- [Orno DI](https://github.com/orno/di)
+- [Orno DI](https://github.com/orno/di) (probably soon this will be called [`league/dic`](https://github.com/orno/di/commit/766d93408a1add3cf926e4aa39d082a7b82c95da).)
 - [Laravel's container](https://github.com/illuminate/container)
 - [SlimPHP's container](https://github.com/codeguy/Slim/blob/master/Slim/Helper/Set.php)
 - [PHP-DI](https://github.com/mnapoli/PHP-DI)
