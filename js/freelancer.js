@@ -37,20 +37,35 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('div[data-dismiss="modal"]').on('click', function () {
-    window.history.pushState({}, '', '/#/');
+    window.history.pushState({}, '', '/');
 });
 
 $('a.portfolio-link').on('click', function () {
-    window.history.pushState({}, '', '/#' + $(this).data('url'));
+    var url = $(this).data('url');
+    var id = $(this).attr('href').substr('#portfolioModal-'.length);
+
+    window.history.pushState({}, '', url);
+
+    // Remove all #disqus_thread divs.
+    $('div#disqus_thread').remove();
+    $('div#disqus_thread_'+ id).append('<div id="disqus_thread"></div>');
+
+    DISQUS.reset({
+        reload: true,
+        config: function () {
+            this.page.identifier = url;
+            this.page.url = window.location.origin +'/'+ url;
+        }
+    });
 });
 
 window.onload = function () {
-    var hash = window.location.hash.substr(1);
+    var hash = window.location.pathname;
     var url = '/' + hash.replace(/\/$/, '').replace(/^\//, '') + '/';
 
     if ($('a[data-url="'+url+'"]').length) {
         $('a[data-url="'+url+'"]').first().click();
     } else {
-        window.history.pushState({}, '', '/#/');
+        //window.history.pushState({}, '', '/');
     }
 };

@@ -19,17 +19,15 @@
                             {% endif %}
                             <div class="modal-content">{{ post.content }}</div>
                             <ul class="list-inline item-details">
-                                <li>Tags:
-                                    <strong>
-                                        <a href="#">{{ post.category }}</a>
-                                    </strong>
-                                </li>
                                 <li>Date:
                                     <strong>
                                         <a href="#">{{ post.project-date }}</a>
                                     </strong>
                                 </li>
                             </ul>
+
+                            <div id="disqus_thread_{{ post.modal-id }}"></div>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
