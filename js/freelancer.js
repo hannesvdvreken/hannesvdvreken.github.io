@@ -40,9 +40,9 @@ $('div[data-dismiss="modal"]').on('click', function () {
     window.history.pushState({}, '', '/');
 });
 
-$('a.portfolio-link').on('click', function () {
+$('a.post-link').on('click', function () {
     var url = $(this).data('url');
-    var id = $(this).attr('href').substr('#portfolioModal-'.length);
+    var id = $(this).attr('href').substr('#postModal-'.length);
 
     window.history.pushState({}, '', url);
 
