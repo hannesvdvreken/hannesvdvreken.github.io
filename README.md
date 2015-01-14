@@ -2,4 +2,4 @@
 
 Jekyll theme based on [Freelancer bootstrap theme](http://startbootstrap.com/templates/freelancer/).
 
-View this blog in action [here](http://hannesvdvreken.github.io).
+View this blog in action [here](https://hannesvdvreken.github.io).
