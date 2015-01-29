@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 3
+title: --ignore-platform-reqs
 date: 2015-01-18
 alt: Composer ignore-platform-reqs flag
 project-date: January 2015

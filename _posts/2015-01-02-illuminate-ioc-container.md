@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 1
+title: Illuminate IoC Container
 date: 2015-01-02
 alt: Laravel IoC container
 project-date: January 2015

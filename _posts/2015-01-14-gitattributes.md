@@ -1,6 +1,7 @@
 ---
 layout: default
 modal-id: 2
+title: .gitattributes
 date: 2015-01-14
 alt: .gitattributes
 project-date: January 2015
