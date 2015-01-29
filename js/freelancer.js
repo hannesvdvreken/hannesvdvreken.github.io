@@ -15,6 +15,10 @@ $(function() {
     });
 });
 
+var isProduction = function () {
+    return window.location.host != '192.168.10.10:4000';
+}
+
 // Floating label headings for the contact form
 $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {
@@ -38,6 +42,9 @@ $('.navbar-collapse ul li a').click(function() {
 
 $('div[data-dismiss="modal"]').on('click', function () {
     window.history.pushState({}, '', '/');
+    if (isProduction()) {
+        ga('send', 'pageview', '/');
+    }
 });
 
 $('a.post-link').on('click', function () {
@@ -45,18 +52,23 @@ $('a.post-link').on('click', function () {
     var id = $(this).attr('href').substr('#postModal-'.length);
 
     window.history.pushState({}, '', url);
+    if (isProduction()) {
+        ga('send', 'pageview', url);
+    }
 
     // Remove all #disqus_thread divs.
     $('div#disqus_thread').remove();
     $('div#disqus_thread_'+ id).append('<div id="disqus_thread"></div>');
 
-    DISQUS.reset({
-        reload: true,
-        config: function () {
-            this.page.identifier = url;
-            this.page.url = window.location.origin +'/'+ url;
-        }
-    });
+    if (isProduction()) {
+        DISQUS.reset({
+            reload: true,
+            config: function () {
+                this.page.identifier = url;
+                this.page.url = window.location.origin + '/' + url;
+            }
+        });
+    }
 });
 
 window.onload = function () {
