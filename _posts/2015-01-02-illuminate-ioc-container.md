@@ -1,23 +1,29 @@
 ---
 layout: default
 modal-id: 1
-title: Illuminate IoC Container
+title: On IoC Containers
 date: 2015-01-02
 alt: Laravel IoC container
 project-date: January 2015
 description: On the Illuminate IoC container
 ---
 
-At work I'm currently modernising a legacy project without composer into an application with less code and thus less bugs. The first composer package I required was an application container to add Dependency Injection to the project. The container I used is called [orno/di](https://github.com/orno/di).
+At work I'm currently modernising a legacy project without composer into an application with less code and thus less bugs.
+The first composer package I required was an application container to add Dependency Injection to the project.
+The container I used is called [orno/di](https://github.com/orno/di), which is now moved to to [league/container](https://github.com/thephpleague/container).
 
 I bootstrapped the container in the index file. After that I registered some basic stuff to it like
-an object of the Symfony Request class, a Monolog logger with rotating log files, ... Finally I was able to adapt
+an object of the Symfony Request class, a Monolog logger with rotating log files, ... Finally we were able to adapt
 the existing old router to resolve the controllers and their dependencies from the IoC container.
 
 In a couple of hours I had enabled the project to adopt and inject composer loaded classes within minutes.
+Moral of the story is, in any application it is necessary to have a service container which allows for binding
+resolving callbacks that configure the objects you need, when you need them.
+
+The rest of this blog post will mostly handle about Laravel's IoC container as I've been contributing to that one lately.
 
 ## Auto resolving
-But how does this container, often called application container, know what to inject? Some containers allow you to
+But how does this container, often called application container or service container, know what to inject? Some containers allow you to
 configure a hierarchical tree of dependencies in config files or bootstrap code.
 
 Since PHP 5 there is a Reflection extension available. This extension allows you to request meta data about extensions, classes, properties, objects, methods, functions and arguments. All of these have Reflector classes like ReflectionExtension,
@@ -128,7 +134,7 @@ instantiate Whoops in a more lazy way.
 ## Available containers
 There are a number of Containers available in Composer packages. Here are a couple of them that come to my mind:
 
-- [Orno DI](https://github.com/orno/di) (probably soon this will be called [`league/dic`](https://github.com/orno/di/commit/766d93408a1add3cf926e4aa39d082a7b82c95da).)
+- [The PHP League's Container](https://github.com/thephpleague/container)
 - [Laravel's container](https://github.com/illuminate/container)
 - [SlimPHP's container](https://github.com/codeguy/Slim/blob/master/Slim/Helper/Set.php)
 - [PHP-DI](https://github.com/mnapoli/PHP-DI)
