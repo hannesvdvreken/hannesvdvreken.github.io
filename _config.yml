@@ -4,6 +4,7 @@ url: https://hannesvdvreken.github.io
 email: vandevreken.hannes@gmail.com
 description: "Hannes is a web developer. On his blog he writes about things he learned while experimenting with tools he might use to speed up his development."
 skills: "Web developer at <a href='http://mwl.be'>madewithlove</a>"
+env: production
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -41,7 +42,7 @@ ga:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Ghent, Antwerp, Leuven, Brussels
+  - line: Ghent, Antwerp, Leuven, Brussels, etc
   - line: Belgium
 
 # Credits content
