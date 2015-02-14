@@ -119,11 +119,14 @@ header a.active {
 
 #about a,
 #about a,
-#about a:hover,
 #about a:focus,
 #about a:active,
 #about a.active {
      color: #{{ site.color.white }};
+}
+
+#about a:hover {
+    color: #{{ site.color.primary }};
 }
 
 @media(min-width:768px) {
