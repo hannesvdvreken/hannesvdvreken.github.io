@@ -37,6 +37,8 @@ so it could clearly benefit from autoload-dev. But it's a big refactor to extrac
 This post was the third composer blog post in a row. Previously I wrote about [gitattributes](/2015/01/14/gitattributes/)
 and the [--ignore-platform-reqs](/2015/01/18/composer-ignore-platform-reqs-flag/) flag.
 
+That's all folks! Cheers.
+
 References:
 
 - [Composer pull request #1344](https://github.com/composer/composer/pull/1344)
