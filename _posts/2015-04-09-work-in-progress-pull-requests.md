@@ -30,4 +30,8 @@ you might want to postpone pushing your branch. Also a PR for an open source pro
 between community members before you even finished your work. In these kind of situations it is perfectly normal
 to keep your branch local for the time you're working on it.
 
+At [madewithlove](http://mwl.be) we definitely like this approach of opening WIP pull requests.
+It gives all these benefits to peer developers. For project managers this gives the ability to track
+progress, next to what they can see on [huboard](https://huboard.com) or [zenhub](https://www.zenhub.io/).
+
 Cheers!
