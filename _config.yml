@@ -1,55 +1,47 @@
-# Site settings
-title: Hannes Van De Vreken
-url: https://hannesvdvreken.com
-email: vandevreken.hannes@gmail.com
-description: "Hannes is a web developer. On his blog he writes about things he learned while experimenting with tools he might use to speed up his development."
-skills: "Web developer at <a href='http://mwl.be'>madewithlove</a>"
-env: production
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-  white: ffffff
-
-nav:
-  posts: Posts
-  about: About
-  contact: Contact
-
-# Footer settings
-footer:
-  copyright: Hannes Van De Vreken
-  location: Location
-  social: You can find me here
-  credits: About me
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: github
-    url: https://github.com/hannesvdvreken
-  - title: twitter
-    url: https://twitter.com/hannesvdvreken
-  - title: stack-overflow
-    url: https://stackoverflow.com/users/1079360/hannesvdvreken
-  - title: instagram
-    url: https://instagram.com/hannesvdvreken
-
-# Google analytics
-ga:
-  tracking: UA-9732394-15
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Ghent, Antwerp, Leuven, Brussels, etc
-  - line: Belgium
-
-# Credits content
-credits: 'I am a web developer interested in modern PHP development, node.js and all web things standardised.'
-
 # Build settings
-markdown: kramdown
-markdown_ext: md
-permalink: pretty
-enable_coderay: true
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jemoji
+  
+# Site settings
+title: "Hannes Van De Vreken"
+description: >
+    Working as a web developer.
+    On his blog he writes about things he learned while experimenting
+    with tools he might use to speed up his development.
+
+email: vandevreken.hannes@gmail.com
+
+# blog logo
+author_logo: "/assets/images/author.jpg"
+logo: "/assets/images/logo.jpg"
+
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Hannes Van De Vreken'
+author: 'Hannes Van De Vreken'
+author_image: "/assets/images/author.jpg"
+
+paginate: 5
+
+url: "https://hannesvdvreken.com"
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+
+# social icons and sharing options
+social:
+  - icon: twitter
+    url: https://twitter.com/hannesvdvreken
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon: github
+    url: https://github.com/hannesvdvreken
+    desc: Follow me on github
+    share_url:
+    share_title:
+    share_link:
