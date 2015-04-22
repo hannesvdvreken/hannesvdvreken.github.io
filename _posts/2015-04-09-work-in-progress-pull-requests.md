@@ -1,11 +1,11 @@
 ---
-layout: default
-modal-id: 2015-04-09
-title: Work-in-progress Pull Requests
+layout: post
 date: 2015-04-09
-alt: Work-in-progress Pull Requests
-project-date: April 2015
-description: The benefits of Work-in-progress Pull Requests
+title: "Work-in-progress Pull Requests"
+description: "The benefits of creating Work-in-progress Pull Requests as early as possible"
+categories: "workflow"
+tags: work git
+image: /assets/images/background_image.jpg
 ---
 
 A while ago I saw a discussion on Twitter on when to open a pull request,

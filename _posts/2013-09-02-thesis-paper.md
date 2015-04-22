@@ -1,11 +1,11 @@
 ---
-layout: default
-modal-id: 2013-09-02
-title: "Thesis paper"
+layout: post
 date: 2013-09-02
-alt: "TIL: callback.call(this [, arg1 [, arg2…]]);"
-project-date: September 2013
-description: "TIL: callback.call(this [, arg1 [, arg2…]]);"
+title: "Thesis paper"
+description: "Link to my master thesis paper, downloadable in PDF format."
+categories: studies
+tags: master thesis pdf
+image: /assets/images/background_image.jpg
 ---
 
 Here's a [public link](https://www.dropbox.com/s/7d1o8e1el2xnjkl/thesis.pdf) to my master thesis paper, available on Dropbox.

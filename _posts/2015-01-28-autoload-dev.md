@@ -1,11 +1,11 @@
 ---
-layout: default
-modal-id: 4
-title: autoload-dev
+layout: post
 date: 2015-01-28
-alt: autoload-dev section in composer.json
-project-date: January 2015
-description: autoload-dev section in you composer.json file
+title: "Composer's autoload-dev"
+description: "About Composer's autoload-dev section in your composer.json file"
+categories: "composer"
+tags: php composer git
+image: /assets/images/background_image.jpg
 ---
 
 Today's blog post is about the `autoload-dev` configuration section in the root of `composer.json` file.

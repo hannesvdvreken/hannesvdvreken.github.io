@@ -1,12 +1,13 @@
 ---
-layout: default
-modal-id: 3
-title: --ignore-platform-reqs
+layout: post
 date: 2015-01-18
-alt: Composer ignore-platform-reqs flag
-project-date: January 2015
-description: Composer's new --ignore-platform-reqs flag
+title: "Composer ignore-platform-reqs flag"
+description: "Composer's new --ignore-platform-reqs flag"
+categories: "composer"
+tags: php composer git
+image: /assets/images/background_image.jpg
 ---
+
 
 ### Composer update without PHP environment checking
 

@@ -1,14 +1,14 @@
 ---
-layout: default
-modal-id: 2015-04-13
-title: "Running my very first marathon"
+layout: post
 date: 2015-04-13
-alt: "Running my very first marathon"
-project-date: April 2015
+title: "Running my very first marathon"
 description: "Running my very first marathon, the whole story"
+categories: "running"
+tags: marathon rotterdam running fitness health
+image: /assets/images/background_image.jpg
 ---
 
-## Start to run
+# Start to run
 
 In june 2014 I started running because I had secured a speaker slot at the community day of Laracon EU. For my presentation I wanted to look fit on stage. It gives me confidence to drop a few kilograms of weight. I started with a 9 km run and gradually ran further and further.
 

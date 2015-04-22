@@ -1,11 +1,11 @@
 ---
-layout: default
-modal-id: 2013-07-17
-title: "TIL: callback.call(this [, arg1 [, arg2…]]);"
+layout: post
 date: 2013-07-17
-alt: "TIL: callback.call(this [, arg1 [, arg2…]]);"
-project-date: July 2013
+title: "TIL: callback.call(this [, arg1 [, arg2…]]);"
 description: "TIL: callback.call(this [, arg1 [, arg2…]]);"
+categories: js til
+tags: js til
+image: /assets/images/background_image.jpg
 ---
 
 In javascript, the `this` object in a callback is the object from where it is called.

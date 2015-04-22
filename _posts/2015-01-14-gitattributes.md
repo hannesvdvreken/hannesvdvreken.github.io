@@ -1,11 +1,11 @@
 ---
-layout: default
-modal-id: 2
-title: .gitattributes
+layout: post
 date: 2015-01-14
-alt: .gitattributes
-project-date: January 2015
-description: Use gitattributes to for your composer installable packages
+title: ".gitattributes"
+description: "Use gitattributes to for your composer installable packages"
+categories: "composer"
+tags: php composer git
+image: /assets/images/background_image.jpg
 ---
 
 A quick tip here, for all PHP developers out there who author packages registered on [packagist.org](https://packagist.org).
