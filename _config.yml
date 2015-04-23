@@ -1,9 +1,3 @@
-# Build settings
-markdown: redcarpet
-highlighter: pygments
-gems:
-  - jemoji
-  
 # Site settings
 title: "Hannes Van De Vreken"
 description: >
@@ -11,24 +5,33 @@ description: >
     On his blog he writes about things he learned while experimenting
     with tools he might use to speed up his development.
 
-email: vandevreken.hannes@gmail.com
-
-# blog logo
-author_logo: "/assets/images/author.jpg"
-logo: "/assets/images/logo.jpg"
-
-# blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
-
 name: 'Hannes Van De Vreken'
 author: 'Hannes Van De Vreken'
 author_image: "/assets/images/author.jpg"
-
-paginate: 5
+logo: "/assets/images/logo.jpg"
+cover: "/assets/images/banner.jpg"
+email: vandevreken.hannes@gmail.com
+env: production
 
 url: "https://hannesvdvreken.com"
 baseurl: ""
 permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jemoji
+
+paginate: 5
+
+# Google analytics
+ga:
+  tracking: UA-9732394-15
+
+# Disqus
+disqus:
+  shortname: hannesvdvreken
 
 # social icons and sharing options
 social:
@@ -42,6 +45,7 @@ social:
   - icon: github
     url: https://github.com/hannesvdvreken
     desc: Follow me on github
-    share_url:
-    share_title:
-    share_link:
+
+  - icon: instagram
+    url: https://instagram.com/hannesvdvreken
+    desc: Watch my pictures on Instagram
