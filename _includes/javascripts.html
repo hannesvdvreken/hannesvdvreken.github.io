@@ -39,3 +39,8 @@
 }(jQuery));
 </script>
 
+{% if site.env == 'production' %}
+  {% include partials/google_analytics.html %}
+  {% include partials/disqus.html %}
+{% endif %}
+
