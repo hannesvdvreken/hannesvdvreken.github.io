@@ -33,6 +33,14 @@ ga:
 disqus:
   shortname: hannesvdvreken
 
+# GitHub
+github:
+  repo: hannesvdvreken/hannesvdvreken.github.io
+
+# Twitter
+twitter:
+  handle: hannesvdvreken
+
 # social icons and sharing options
 social:
   - icon: twitter
