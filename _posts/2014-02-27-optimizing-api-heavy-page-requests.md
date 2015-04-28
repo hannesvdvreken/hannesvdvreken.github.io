@@ -7,7 +7,8 @@ categories: Guzzle
 tags: Guzzle PHP speed
 ---
 
-**Note:** this is a repost from a blog post I did for a former employer. Nowadays I would recommend a different technique, though:
+**Note:** this is a repost from a [blog post](http://myri.se/optimizing-api-heavy-page-requests/) I did for a former employer.
+Nowadays I would recommend a different technique, though:
 [GuzzlePHP version 5 asynchronous requests](http://guzzle.readthedocs.org/en/latest/faq.html#can-guzzle-send-asynchronous-requests).
 
 Moving on to the original post:
