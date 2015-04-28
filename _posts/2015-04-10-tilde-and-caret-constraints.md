@@ -58,7 +58,7 @@ This is to protect users who might not have updated their Composer to a version 
 caret `^` constraints. Expect this to change in the coming weeks or months.
 
 In case you didn't notice yet, the links behind all these version constraints point to
-[semver.mwl.be](http://semver.mwl.be). We create this tool after [Maxime](https://twitter.com/anahkiasen)
+[semver.mwl.be](http://semver.mwl.be). We created this tool after [Maxime](https://twitter.com/anahkiasen)
 posted a link to [semver.npmjs.com](http://semver.npmjs.com/) in our [madewithlove](http://mwl.be) slack channel.
 
 I won't go into stability as it is out of the scope of this blog post, but I suggest you play around with
