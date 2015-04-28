@@ -5,7 +5,7 @@ title: "Dashboard recognition"
 description: "Google Goggle recognised a car brand by the picture of the dashboard."
 categories: Google AI
 tags: Google
-image: /assets/article_images/google.jpg
+image: /assets/article_images/2013-08-21-dashboard-recognition/google.jpg
 ---
 
 So, I was refreshing my twitter feed and a friend of mine was documenting a major milestone for him and his first new car.
@@ -28,7 +28,7 @@ dozens of speed junkies film their dashboard while accelerating from 0 to 60 mph
 
 A simple search for "BMW 0-100" on YouTube:
 
-![youtube](/assets/images/article_images/2013-08-21-dashboard-recognition/youtube.jpg)
+![youtube](/assets/article_images/2013-08-21-dashboard-recognition/youtube.jpg)
 
 Boom! There you have it: hundreds of thousands of frames to learn how to recognise the car manufacturer by the dashboard.
 No doubt Google is leveraging this infinite data source for this feature.
