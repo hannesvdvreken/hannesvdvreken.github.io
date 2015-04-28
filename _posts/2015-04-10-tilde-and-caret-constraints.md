@@ -7,6 +7,8 @@ categories: "composer"
 tags: php composer semver
 ---
 
+**Note:** this is a repost from my post on the [madewithlove blog](http://blog.madewithlove.be/post/tilde-and-caret-constraints/).
+
 When installing a dependency we are used to install a version that adheres to a
 known public interface and does what it promises. That way we can safely use it in our code.
 
