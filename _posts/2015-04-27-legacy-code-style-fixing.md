@@ -2,7 +2,7 @@
 layout: post
 title:  "Improving code style when working on a legacy code base"
 description: "Some tips and pitfalls on code style changes in legacy projects."
-date: 2015-05-27
+date: 2015-04-27
 categories: ["code-style", "legacy"]
 tags: code-style legacy
 ---
