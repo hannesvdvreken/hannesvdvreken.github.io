@@ -24,7 +24,7 @@ In November I went to see physiologists in the university hospital. They tested 
 
 ## Preparing for a marathon
 
-After those tests I got a 16 week training shedule to lower my heart rate and got some nutrition tips. I also researched about excercises, training schedules, physiology and nutrition on the internet afterwards. And so I started to run 4 sessions a week. Next to running I started climbing again, one time a week, to build upper core muscles. If you would do cardio training only you would burn all your unused muscles and become a walking skeleton, but with strong legs.
+After those tests I got a 16 week training shedule to lower my heart rate and got some nutrition tips. I also researched about exercises, training schedules, physiology and nutrition on the internet afterwards. And so I started to run 4 sessions a week. Next to running I started climbing again, one time a week, to build upper core muscles. If you would do cardio training only you would burn all your unused muscles and become a walking skeleton, but with strong legs.
 
 When I saw good progress I decided to register for the Rotterdam Marathon. It's a big event with good atmosphere and other runners seemded to love it. Rotterdam was a city I've never visited and it's only 80 minutes driving by car. 16 weeks of training turned into 24 weeks of training, because I started training before I knew which marathon I would run and how many weeks I had left.
 
