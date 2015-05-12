@@ -25,8 +25,7 @@ When you call any Symfony console application you can indicate the verbosity you
 
 When transferring a file it's a bit harder to show the progress of the transfer, but possible. When opening resources (also called "streams") in PHP one can add a "stream context". The context defines options and parameters. One parameter is the optional [`stream_notification_callback`](http://php.net/manual/en/function.stream-notification-callback.php).
 
-`$context = stream_context_create([], ['notification' => $callback]);`
-`$resource = fopen($source, 'r', null, $context);`
+<script src="https://gist.github.com/hannesvdvreken/89cc4e7326c7e077b9e9.js"></script>
 
 A resource can be a FTP, SFTP, HTTP, HTTPS source, or anything else that can be streamed over TCP sockets.
 
