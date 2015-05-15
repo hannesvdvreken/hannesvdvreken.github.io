@@ -40,7 +40,7 @@ There are a few caveats though...
 First: stream contexts must be created before the resource is opened. This means one cannot use the notification callback for existing resources.
 
 That is why in the previous example I only used Flysystem to write the stream to a file, but not to initiate the read stream. `FilesystemInterface::readStream` returns a resoure but it doesn't allow you to set a stream context.
-By the way, most Flysystem adapters implement the `readStream` in a slightly inexpected way. To comply with the interface the adapters read the source file content and append it to the `php://temp` (in memory) stream. Then the memory stream is rewound, so it is ready to read, and ultimately returned.
+By the way, some Flysystem adapters implement the `readStream` in a slightly inexpected way. To comply with the interface, the [FTP adapter](https://github.com/thephpleague/flysystem/blob/166a16f7e966d5eac46fb7a9849db21734718495/src/Adapter/Ftp.php#L352-L365) and the [Dropbox adapter](https://github.com/thephpleague/flysystem-dropbox/blob/2f464a6a80c0dcc2113a8cc636ca9d4a0fc26617/src/DropboxAdapter.php#L101-L115) `readStream` methods need to return a resource. They don't have a native way to open a stream and return that, so they need to read the entire source file content and append it to the `php://temp` (in memory) stream. Then the memory stream is rewound, so it is ready to read, and ultimately returned.
 
 Second caveat: using resources and a notification callback doesn't mean the transfer is asynchronous. To create truly asynchronous transfers I would recommend taking a look at [ReactPHP](http://reactphp.org/).
 
