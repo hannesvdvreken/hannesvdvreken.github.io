@@ -58,9 +58,10 @@ Mediclowns is similar, with the big difference that they do home visits.
 
 The money I will raise will all go to Mediclowns, who will pay for my entire 5 day trip to New York.
 In Belgium you (as a tax payer) can deduct gifts from your taxes, and as a business the amount is
-100% deductible from your revenue. Please, if this sounds appealing to you,
-or you can connect me to a company to which this might sound appealing,
-let me know and we'll talk more on the details. Every single backer will get a personal souvenir,
-a thank you letter and a mention in a future blog post. It may not be worth much, but it's a gesture of gratitude ;)
+100% deductible from your revenue. Please, if this sounds appealing to you, or you can connect me to a company to which this might sound appealing, let me know and we'll talk more on the details. Every single backer will get a personal souvenir, a thank you letter and a mention in a future blog post. It may not be worth much, but it's a gesture of gratitude ;)
+
+The fund raising page is on [gofundme.com/tcsnycmarathon](https://gofundme.com/tcsnycmarathon).
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="258" height="338" title="Click Here to donate!" type="application/x-shockwave-flash"><param name="movie" value="//funds.gofundme.com/Widgetflex.swf" /><param name="quality" value="high" /><param name="flashvars" value="page=tcsnycmarathon&template=7" /><param name="wmode" value="transparent" /><embed allowScriptAccess="always" src="//funds.gofundme.com/Widgetflex.swf" quality="high" flashVars="page=tcsnycmarathon&template=7" type="application/x-shockwave-flash" wmode="transparent" width="258" height="338"></embed></object>
 
 Take care!
