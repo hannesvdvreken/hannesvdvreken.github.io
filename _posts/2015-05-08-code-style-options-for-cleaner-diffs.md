@@ -7,7 +7,7 @@ categories: "code-style"
 tags: php-cs-fixer php cs whitespace
 ---
 
-**Note:** this is a repost from my post on the [madewithlove blog](blog.madewithlove.be/post/code-style-options-for-cleaner-diffs/).
+**Note:** this is a repost from my post on the [madewithlove blog](http://blog.madewithlove.be/post/code-style-options-for-cleaner-diffs/).
 
 [My previous blog post](http://blog.madewithlove.be/post/legacy-code-style-fixing/) covered tips on code style fixing while working on legacy projects. The blog post was very generic and the ideas are applicable on projects in any language. I mentioned some tips that help your peer developers review your pull requests. What I didn't mention are code style standards and code style details.
 
