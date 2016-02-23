@@ -41,6 +41,8 @@
 
 {% if site.env == 'production' %}
   {% include partials/google_analytics.html %}
-  {% include partials/disqus.html %}
+  {% if page.is_post %}
+    {% include partials/disqus.html %}
+  {% endif %}
 {% endif %}
 

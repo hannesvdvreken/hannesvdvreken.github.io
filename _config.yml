@@ -42,6 +42,15 @@ github:
 twitter:
   handle: hannesvdvreken
 
+# Add is_post to posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+
 # social icons and sharing options
 social:
   - icon: twitter
