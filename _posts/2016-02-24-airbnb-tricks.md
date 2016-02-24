@@ -28,7 +28,7 @@ I haven't hosted people myself. I live in a fancy, well located, 2 bedroom apart
 
 On Airbnb, on every page to view a place, there is a button that says "contact host". Use it. I get in touch with hosts before sending a booking request with my credit card details. I do this to send a little introduction about myself, and the reason why I am looking to rent their place. Don't tell your bad habits or your life story. Just the information they need. For example: I'm a passionate runner since 2014 and I'm planning on making a weekend trip to Valencia to run the Valencia marathon with X friends from day Y till day Z. One time I got the price for a seaside villa in Valencia for 6 nights down from 3500 euro 2000.
 
-![contact host](/assets/article_images/2016-02-24-airbnb-tricks/contact-host.jpg)
+![contact host](/assets/article_images/2016-02-24-airbnb-tricks/contact-host.png)
 
 The second reason I contact hosts without a booking request is because hosts have the option to send special offers. After one or two messages I usually ask hosts if they want to make me an offer for a cheaper price. Sometimes they do if you're trustworthy, if you book well in advance, and even better: if the owner can relate to you because you have something in common. You're essentially bargaining. A common sentence to use is: "I've seen this cheaper place nearby (include link). I'm having doubts if I should book that place or yours. If the price would be the same I would book today.". It's still people you're dealing with, so if they don't buy it: stay friendly, be honest and don't waste their time.
 
