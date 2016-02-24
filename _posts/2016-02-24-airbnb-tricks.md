@@ -26,7 +26,7 @@ I haven't hosted people myself. I live in a fancy, well located, 2 bedroom apart
 
 # Contact host beforehand
 
-On Airbnb, on every page to view a place, there is a button that says "contact host". Use it. I get in touch with hosts before sending a booking request with my credit card details. I do this to send a little introduction about myself, and the reason why I am looking to rent their place. Don't tell your bad habits or your life story. Just the information they need. For example: I'm a passionate runner since 2014 and I'm planning on making a weekend trip to Valencia to run the Valencia marathon with X friends from day Y till day Z. One time I got the price for a seaside villa in Valencia for 6 nights down from 3500 euro 2000.
+On Airbnb, on every page to view a place, there is a button that says "contact host". Use it. I get in touch with hosts before sending a booking request with my credit card details. I do this to send a little introduction about myself, and the reason why I am looking to rent their place. Don't tell your bad habits or your life story. Just the information they need. For example: I'm a passionate runner since 2014 and I'm planning on making a weekend trip to Valencia to run the Valencia marathon with X friends from day Y till day Z. One time I got the price for a seaside villa in Valencia for 6 nights down from 3500 euro to 2000!
 
 ![contact host](/assets/article_images/2016-02-24-airbnb-tricks/contact-host.png)
 
