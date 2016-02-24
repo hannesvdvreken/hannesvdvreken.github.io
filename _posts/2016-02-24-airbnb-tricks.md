@@ -4,6 +4,7 @@ date: 2016-02-24
 title: "Airbnb tricks"
 description: "How I travel with Airbnb"
 tags: airbnb travel cheap
+image: /assets/article_images/2016-02-24-airbnb-tricks/header.jpg
 ---
 
 Hi there! It's been a while since my last blog post. Sorry for that. Let's break the silence with a post on travelling with Airbnb.
