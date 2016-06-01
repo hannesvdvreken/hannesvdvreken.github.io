@@ -18,10 +18,10 @@ Thanks.
 
 PSR-7 middlewares discussion links:
 
-- http://blog.ircmaxell.com/2016/05/all-about-middleware.html
-- https://philsturgeon.uk/2016/05/31/why-care-about-php-middleware/
-- http://andrewcarteruk.github.io/programming/2016/05/22/psr-7-is-not-immutable.html
-- https://groups.google.com/forum/#!msg/php-fig/vTtGxdIuBX8/NXKieN9vDQAJ
-- https://groups.google.com/forum/#!msg/thephpleague/jyztj-Nz_rw/I4lHVFigAAAJ
+- [Anthony Ferrara's post](http://blog.ircmaxell.com/2016/05/all-about-middleware.html)
+- [Phil Sturgeon's post](https://philsturgeon.uk/2016/05/31/why-care-about-php-middleware/)
+- [Andrew Carter educating that the StreamInterface isn't immutable](http://andrewcarteruk.github.io/programming/2016/05/22/psr-7-is-not-immutable.html)
+- [PHP-FIG discussion on google groups](https://groups.google.com/forum/#!msg/php-fig/vTtGxdIuBX8/NXKieN9vDQAJ)
+- [PHP league discussion on google groups](https://groups.google.com/forum/#!msg/thephpleague/jyztj-Nz_rw/I4lHVFigAAAJ)
 
 Some links might be missing here. Feel free to send a PR.
