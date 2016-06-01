@@ -19,6 +19,7 @@ Thanks.
 PSR-7 middlewares discussion links:
 
 - [Anthony Ferrara's post](http://blog.ircmaxell.com/2016/05/all-about-middleware.html)
+- [Woody Gilk's post](http://shadowhand.me/all-about-psr-7-middleware/)
 - [Phil Sturgeon's post](https://philsturgeon.uk/2016/05/31/why-care-about-php-middleware/)
 - [Andrew Carter educating that the StreamInterface isn't immutable](http://andrewcarteruk.github.io/programming/2016/05/22/psr-7-is-not-immutable.html)
 - [PHP-FIG discussion on google groups](https://groups.google.com/forum/#!msg/php-fig/vTtGxdIuBX8/NXKieN9vDQAJ)
