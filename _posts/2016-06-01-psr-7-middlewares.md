@@ -33,9 +33,11 @@ Granted, you can use them wrong by fiddling with the Response before passing it 
 
 Thanks.
 
-Links to other discussions:
+PSR-7 middlewares discussion links:
+
 - http://blog.ircmaxell.com/2016/05/all-about-middleware.html
 - https://philsturgeon.uk/2016/05/31/why-care-about-php-middleware/
+- http://andrewcarteruk.github.io/programming/2016/05/22/psr-7-is-not-immutable.html
 - https://groups.google.com/forum/#!msg/php-fig/vTtGxdIuBX8/NXKieN9vDQAJ
 - https://groups.google.com/forum/#!msg/thephpleague/jyztj-Nz_rw/I4lHVFigAAAJ
 
