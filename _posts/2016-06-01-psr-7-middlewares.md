@@ -8,24 +8,7 @@ tags: psr-7 php http
 
 PSR-7 got released May 4, 2015. There is a discussion about middlewares based on PSR-7 messages, and it is awfully overdue. The most common middlewares in use since June 2015 are callables with this interface:
 
-```php
-use Psr\Http\Message\ResponseRequestInterface;
-use Psr\Http\Message\ServerRequestInterface;
-
-function (ServerRequestInterface $request, ResponseInterface $response, callable $next)
-{
-    // Do something with the Request or stop execution and return a Response here.
-    ...
-
-    // Call the next middleware
-    $response = $next($request, $response);
-
-    // Modify the response, if you like, before returning it.
-    ...
-
-    return $response;
-}
-```
+<script src="https://gist.github.com/hannesvdvreken/6767f0b423a28b24e7c588c22f552b78.js"></script>
 
 They just work. I've been using them since June 2015. You can stack a number of middlewares with tools like [relay/relay](https://packagist.org/packages/relay/relay) or [mindplay/middleman](https://packagist.org/packages/mindplay/middleman). I prefer the latter because it plays well with `container-interop` containers to resolve middlewares when you need them.
 
