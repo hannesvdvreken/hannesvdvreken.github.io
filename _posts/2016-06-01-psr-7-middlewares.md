@@ -29,7 +29,7 @@ function (ServerRequestInterface $request, ResponseInterface $response, callable
 
 They just work. I've been using them since June 2015. You can stack a number of middlewares with tools like [relay/relay](https://packagist.org/packages/relay/relay) or [mindplay/middleman](https://packagist.org/packages/mindplay/middleman). I prefer the latter because it plays well with `container-interop` containers to resolve middlewares when you need them.
 
-Granted, you can use them wrong by fiddling with the Response before passing it on to the next middleware. Just don't do that. But I'd rather educate newbies than to remodel the whole thing and to make it overly complex. I've been giving this PSR-7 talk for 12! months now. Please just spread the word and stop discussing something that has been in use for over a year now.
+Granted, you can use them wrong by fiddling with the Response before passing it on to the next middleware. Just don't do that. But I'd rather educate newbies than to remodel the whole thing and to make it overly complex. I've been giving [this PSR-7 talk](https://www.youtube.com/watch?v=gOVALgpqHzM) for 12! months now. Please just spread the word and stop discussing something that has been in use for over a year now.
 
 Thanks.
 
