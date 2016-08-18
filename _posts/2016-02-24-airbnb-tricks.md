@@ -43,7 +43,7 @@ A few days in advance I usually text the host to let him/her know when I'll arri
 
 # Book your own AirBnb place
 
-If you want to try AirBnb for one of your upcoming trips, get started [here](https://www.airbnb.com/c/hdevreken).
+If you want to try AirBnb for one of your upcoming trips, get [30 euro](https://www.airbnb.com/c/hdevreken) off of your first booking.
 
 That's it. Happy travelling!
 
