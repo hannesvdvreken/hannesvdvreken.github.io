@@ -41,6 +41,10 @@ If you're looking for a place for 2 weeks or longer you can ask to only book the
 
 A few days in advance I usually text the host to let him/her know when I'll arrive. This is to make sure the host is still alive and aware you're coming over. If the owner responds quickly, you know you can reach him/her when you're in an emergency situation. When you arrive you can pick up the key, get to know the host and start navigating around the city. Make sure your phone has an internet connection and a fully charged battery and you'll be good.
 
+# Book your own AirBnb place
+
+If you want to try AirBnb for one of your upcoming trips, get started [here](www.airbnb.com/c/hdevreken).
+
 That's it. Happy travelling!
 
 PS: This was a blog post on travelling. It is not my intention to start making this a travel blog. Though, we'll see where this goes.
