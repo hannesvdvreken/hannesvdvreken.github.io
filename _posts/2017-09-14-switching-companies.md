@@ -10,9 +10,12 @@ After precisely 3 years (since 8 September 2014) at [madewithlove](https://madew
 A little while ago, I agreed to join the team at [Stream](https://getstream.io) as a PHP Software Engineer and Developer Advocate.
 Next Monday I will join them in their office in [TQ](https://tq.co/) in Amsterdam.
 
-My job will be to represent them, and the product, in the PHP community.
-Many people know Algolia, Sendgrid, Twilio, etc. I'll be creating demo applications, tutorials and workshops in PHP.
+My task will be to represent them, and the product, in the PHP community.
+Many people know Algolia, Sendgrid, Twilio, etc. and soon Stream will be as well known as those names.
+I'll be creating demo applications, tutorials and workshops in PHP.
 Also I'll be a point of contact (account manager if you will) for customers doing integrations with our product in PHP applications.
 Next to that I will keep doing my best to create PHP related talks, that help other people learn new things.
+
+![](https://dvqg2dogggmn6.cloudfront.net/images/getstream_io_og.png)
 
 I'm really looking forward to this new chapter and I'd like to thank my colleagues at madewithlove for the epic ride! Keep rocking.
