@@ -16,7 +16,7 @@ In April this year I ran [my very first marathon](https://hannesvdvreken.com/201
 <br>
 
 It was until that day (12th of April) that I kept telling others and myself that this was a one time thing.
-Though, after the race I was so happy with my result, that I just stopped saying wether or not I would do it again.
+Though, after the race I was so happy with my result, that I just stopped saying whether or not I would do it again.
 Some time was needed to reflect on my result, wether I wanted to go faster, wether I could push my body even further,
 and whether I could afford the time needed to improve.
 
