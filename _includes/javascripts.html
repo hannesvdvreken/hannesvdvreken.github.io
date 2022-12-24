@@ -39,11 +39,7 @@
 }(jQuery));
 </script>
 
-{% if site.env == 'production' %}
-  {% include partials/google_analytics.html %}
-  {% include partials/google_adsense.html %}
-  {% if page.is_post %}
-    {% include partials/disqus.html %}
-  {% endif %}
+{% if site.env == 'production' && page.is_post %}
+  {% include partials/disqus.html %}
 {% endif %}
 
